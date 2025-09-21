@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 40px;
+        }
+        
+        i {
+            font-size: 80px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #4a6fc9;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            background: #3b5aa6;
+        }
+        
+        .btn i {
+            font-size: 16px;
+            margin-right: 8px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-check-circle"></i>
+        <h1>Thank You for Your Message!</h1>
+        <p>We've received your message and will get back to you as soon as possible.</p>
+        <p>You should receive a confirmation email shortly at the address you provided.</p>
+        
+        <div>
+            <a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Back to Contact Form</a>
+            <a href="/" class="btn"><i class="fas fa-home"></i> Go to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>
